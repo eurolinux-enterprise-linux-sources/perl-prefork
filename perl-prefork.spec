@@ -1,6 +1,6 @@
 Name: 		perl-prefork
 Version: 	1.04
-Release: 	10%{?dist}
+Release: 	11%{?dist}
 Summary: 	Optimized module loading for forking or non-forking processes
 License: 	GPL+ or Artistic
 Group: 		Development/Libraries
@@ -55,6 +55,9 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-11
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Ralf Corsépius <corsepiu@fedoraproject.org> - 1.04-10
 - Remove RHEL spec file compatibility.
 - Fix FTBFS (BZ 878829).
